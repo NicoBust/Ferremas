@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #28a745; /* Azul */
+    background-image: blue;
+}
+
+.navbar-brand img {
+    background-color: transparent; /* Hacer el fondo del logo transparente */
+}
+
+.navbar-nav .nav-link {
+    color: black; /* Gris */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Blanco */
+}
+body{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    background-image: url(../img/forest.jpg);
+    background-repeat: no-repeat; background-size: cover;
+    background-position: center; background-attachment: fixed; 
+}
